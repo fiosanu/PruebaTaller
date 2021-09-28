@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("../img/fondo.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.box {
+  width: 500px;
+  background: rgba(0, 0, 0, .4);
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 4%;
+  color: white;
+  font-family: 'Century Gothic', sans-serif;
+  border-radius: 15px;
+}
+
+.box:hover
+{
+
+  width: 500px;
+  background: rgba(24, 41, 199, 0.658);
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 4%;
+  color: white;
+  font-family: 'Century Gothic', sans-serif;
+  border-radius: 15px;
+
+}
+
+.box-img {
+  border-radius: 20px;
+  background-size: 100%;
+}
+
+.box h1 {
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+  margin: 30px 0 20px;
+}
+
+.box h1:hover
+{
+        color:orangered;
+        transition: all 500ms ease;
+        z-index: -1; 
+}
+
+.box h2 {
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+  margin-bottom: 30px
+}
+
+.box h2:hover
+{
+  color:darkorange;
+
+}
+
+.box p {
+  text-align: justify;
+}
+
+.box ul {
+  margin-top: 20px;
+  list-style: none;
+}
+
+.box ul li {
+  display: inline-block;
+}
+.box ul li a {
+  color:yellow;
+  font-size: 18px;
+  padding: 10px 5px;
+  transition: all .5s ease-in-out;
+  display: block;
+}
+
+.button1 {
+    text-transform: uppercase;
+    background-color: transparent;
+    display: block;
+    text-align: center;
+    border-radius: 12px;
+    border: 2px solid #ff00a7;
+    padding: 14px 110px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .button1:hover {
+        background-color: white;
+        color: black;
+        transition: all 500ms ease;
+        z-index: -1;
+    }
+
+.box ul li a:hover {
+  color:yellowgreen;
+  transform: scale(1.3);
+}
